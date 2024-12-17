@@ -1,4 +1,4 @@
-# Cellular Automate Rule30
+# Cellular Automata Rule30
 
 ### What if I told you that **"randomness"** in computer systems are real gimmick!
 
