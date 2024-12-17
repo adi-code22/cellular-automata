@@ -1,6 +1,6 @@
 # Cellular Automate Rule30
 ### What if I told you that "randomness" in computer systems are real gimmick!
-Computer Systems are not skilled enough to produce real random numbers they use deterministic algorithms to produce numbers which look random but follows an order which is derived from a seed value that is passed at the beginning. 
+Computer Systems are not skilled enough to produce real random numbers,they use deterministic algorithms to produce numbers which look random but follows an order which is derived from a seed value that is passed at the beginning. 
 I've seen that most of the time new Date() (which is the current datetime) is given as the seed.
 
 These pseudorandom numbers are prone to repeat the same pattern if provided with the same seed value.
