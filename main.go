@@ -33,7 +33,6 @@ func init() {
 		next[i] = make([]int, rows)
 	}
 
-	// Initialize the grid
 	initGrid()
 }
 
@@ -69,7 +68,6 @@ func XORCompare(i, j int) {
 }
 
 func update(screen *ebiten.Image) error {
-	// Fill background with white
 	screen.Fill(color.White)
 
 	// Draw the grid cells
@@ -82,7 +80,7 @@ func update(screen *ebiten.Image) error {
 				c = color.White
 			}
 
-			// Create a rectangle (w-1) by (w-1) for each cell
+			// Creating the rectangle for  cell
 			rectImage := image.NewRGBA(image.Rect(0, 0, w-1, w-1))
 			for yi := 0; yi < w-1; yi++ {
 				for xi := 0; xi < w-1; xi++ {
